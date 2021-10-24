@@ -4,7 +4,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 
 const localApi = 'http://localhost:7071/api/GetResumeCounter';
-const functionApi = 'https://us-central1-firm-catalyst-327616.cloudfunctions.net/function-1';  
+//const functionApi = 'https://us-central1-firm-catalyst-327616.cloudfunctions.net/function-1';  
+const functionApi = 'https://us-central1-firm-catalyst-327616.cloudfunctions.net/getset_counter';
 
 const getVisitCount = () => {
     let count = 30;

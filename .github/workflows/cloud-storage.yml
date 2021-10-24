@@ -16,7 +16,7 @@ jobs:
           service_account_email: ${{ secrets.GCP_SA_EMAIL }}
           service_account_key: ${{ secrets.GCP_SA_KEY }}
       - run: pwd
-      - run: gsutil -m rsync -d -c -r frontend gs://siddharthmehta.in
+      - run: gsutil -m rsync -d -c -r frontend gs://www.siddharthmehta.in
 #.      - run: gsutil -m setmeta -h "Cache-Control:public, max-age=3600" gs://githubactionstest/**/*.html
 #.      - run: gsutil -m setmeta -h "Cache-Control:public, max-age=31536000" gs://githubactionstest/js/*.js
 #.      - run: gsutil -m setmeta -h "Cache-Control:public, max-age=31536000" gs://githubactionstest/css/*.css
